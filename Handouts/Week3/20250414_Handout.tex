@@ -21,7 +21,7 @@
 %%TYPOLOGY
 \usepackage[svgnames]{xcolor} % Specify colors by their 'svgnames', for a full list of all colors available see here: http://www.latextemplates.com/svgnames-colors
 %\usepackage[compact]{titlesec}
-%\titleformat{\section}[runin]{\normalfont\bfseries}{\thesection.}{.5em}{}[.]
+%\titleformat{\section}[runin]{\normal ont\bfseries}{\thesection.}{.5em}{}[.]
 %\titleformat{\subsection}[runin]{\normalfont\scshape}{\thesubsection}{.5em}{}[.]
 \usepackage[hmargin=1in,vmargin=1in]{geometry}  %Margins          
 \usepackage{graphicx}	%Inserting graphics, pictures, images 		
@@ -36,7 +36,7 @@
 \usepackage{hanging}
 \usepackage{fancyhdr} %Allows for the 
 \pagestyle{fancy}
-\fancyhead[L]{\textit{TITLE}} 
+\fancyhead[L]{\textit{Phonology I Section Handout}} 
 \fancyhead[R]{\textit{\today}} 
 \fancyfoot[L,R]{} 
 \fancyfoot[C]{\thepage} 
@@ -95,6 +95,7 @@
 %%MACROS
 \newcommand{\sub}[1]{\textsubscript{#1}}
 \newcommand{\supr}[1]{\textsuperscript{#1}}
+\newcommand{\tab}{\hspace{1cm}}
 
 \makeatletter
 \renewcommand{\paragraph}{%
@@ -119,32 +120,152 @@
 %	\onehalfspacing
 
 \begin{center}
-     {\Large \textbf{Phonemic Analysis Handout}}
+     {\Large \textbf{Week 3: Phonemic Analysis}}
      \vspace{6pt}
-
-     Mykel Loren Brinkerhoff
 \end{center}
-%\maketitle
+% \maketitle
 %\maketitleinst
 \thispagestyle{fancy}
 
-\tableofcontents
-
+% \tableofcontents
 %------------------------------------
-%\section{} \label{}
-%------------------------------------
-
-
-
-%------------------------------------
-%\section{} \label{}
+\section*{Goals} \label{sec:Goals}
 %------------------------------------
 
+\begin{itemize}
+    \item Practice with phonemic and distributional analysis
+    \item Learn how to write rules in a phonological analysis
+    \item Learn how to determine the underlying representation of a phoneme
+\end{itemize}
 
 %------------------------------------
-%\section{} \label{}
+\section*{Persian} \label{sec:persian}
 %------------------------------------
 
+Persian (also known as Farsi) is a member of the Iranian branch of the Indo-European language family, with around 110 million speakers mainly concentrated in Iran, Afghanistan, and Tajikistan.
+
+\ex. 
+\begin{multicols}{3}
+    \a. {}[ærteʃ] `army' 
+    \b. {}[ahaɾi] `starched'
+    \b. {}[ahar̥] `starch'
+    \b. {}[farsi] `Persian'
+    \b. {}[ʃiɾini] `pastry'
+    \b. {}[axær̥] `last'
+    \b. {}[qædri] `a little bit'
+    \b. {}[beɾid] `go'
+    \b. {}[tʃedʒur̥] `better'
+    \b. {}[rah] `road'
+    \b. {}[biɾæŋ] `pale'
+    \b. {}[ʃir̥] `city'
+    \b. {}[rast] `right'
+    \b. {}[boɾos] `hairbrush'
+    \b. {}[ræŋ] `paint'
+    \b. {}[tʃeɾa] `why'
+    \b. {}[riʃ] `beard'
+    \b. {}[daɾid] `you have'
+    \b. {}[ruz] `day'
+    \z. 
+\end{multicols}
+    
+\begin{itemize}
+    \item Look at the distribution of [r], [ɾ], and [r]. Write out the environments in which they appear.
+    \vspace{1.75cm}
+    \item Are these sounds in complementary or contrastive distribution?
+    \vspace{1.75cm}
+    \item Are they allophones of the same or different phonemes?
+    \vspace{1.75cm}
+    \item If they are allophones of the same phoneme, write a rule to derive the non-underlying allophones in the specific environment(s) where they occur.
+\end{itemize}
+
+\newpage
+
+%------------------------------------
+\section*{Kaqchikel} \label{sec:kaqchikel}
+%------------------------------------
+
+Kaqchikel is a Mayan language, with over 450,000 native speakers across the western highlands of Guatemala. The following data is representative of the San Lucas Tolimán dialect of Kaqchikel, spoken on the shores of Lake Atitlán (about two hours from the capital, Guatemala City). Focus on the distribution of [b’ w f]. The symbol [b’]indicates a voiceless bilabial implosive. Some details of pronunciation have been suppressed for readability.
+
+\ex. 
+\begin{multicols}{2}
+    \a. {}[b’ukut] `shoe'
+    \b. {}[tef] `cold'
+    \b. {}[b’iʃ] `song'
+    \b. {}[xob’] `rain'
+    \b. {}[aweʃ] `your teeth'
+    \b. {}[ulef] `land'
+    \b. {}[ak'wal] `young person'
+    \b. {}[utif] `coyote'
+    \b. {}[qab'ij] `our name'
+    \b. {}[tʃuf] `smelly'
+    \b. {}[axaf] `god'
+    \b. {}[ʃajab'] `sandal'
+    \b. {}[waqiʔ] `six'
+    \b. {}[kab'] `sugar'
+    \b. {}[joxwɨr] `we are sleeping'
+    \b. {}[wiʔaj] `hair'
+    \b. {}[kof] `hard'
+    \b. {}[wuquʔ] `seven'
+    \b. {}[b'aq] `bone'
+    \b. {}[xkowir] `it hardened'
+    \b. {}[jab'e] `you are going'
+    \b. {}[ʃiʃb'e] `you (pl) went'
+    \z. 
+\end{multicols}
+
+\begin{itemize}
+    \item Look at the distribution of [b’], [w], and [f]. Write out the environments in which they appear and give a descriptive generalization about their distribution.
+    \vspace{2cm}
+    \item How many underlying phonemes do [b’], [w], and [f]belong to? Justify your answer, using specific examples from the data given above, and the terminology of phonemic analysis.
+    \vspace{2cm}
+    \item If any of these three sounds belong to a shared underlying phoneme, which allophone represents the `basic’ variant? Why?
+    \vspace{2cm}
+    \item Write any phonological rules needed for your analysis to generate the correct distribution of surface allophones.
+\end{itemize}
+\newpage
+
+%------------------------------------
+\section*{Gascon} \label{sec:gascon}
+%------------------------------------
+
+Gascon is a \textit{lenga d'òc} language spoken in southwestern France. It is closely related to Occitan, Catalan, and Provençal. For this dataset, focus on the distribution of [b d ɡ β ð ɣ] 
+
+\ex. 
+\begin{multicols}{2}
+    \a. [brẽn] `endanger'
+    \b. [bako] `cow'
+    \b. [ũmbro] `shadow'
+    \b. [krãmbo] `room'
+    \b. [dilys] `Monday'
+    \b. [dũŋko] `until'
+    \b. [duso] `sweet'
+    \b. [taldepãn] `leftover bread'
+    \b. [pũnde] `to lay eggs'
+    \b. [ɡuteʒa] `flow'
+    \b. [ẽŋɡwãn] `this year'
+    \b. [puðe] `to be able'
+    \b. [ɡat] `cat'
+    \b. [lũŋɡ] `long'
+    \b. [saliβo] `saliva'
+    \b. [noβi] `husband'
+    \b. [aβe] `to have'
+    \b. [ʃiβaw] `horse'
+    \b. [byðɛt] `gut'
+    \b. [eʃaðo] `hoe'
+    \b. [biɣar] `mosquito'
+    \b. [riɣut] `he laughed'
+    \b. [aɡro] `sour'
+    \b. [ʒuɣet] `he played'
+    \z. 
+\end{multicols}
+
+\begin{itemize}
+    \item Look at the distribution of [b d ɡ β ð ɣ]. Write out the environments in which they appear and give a descriptive generalization about their distribution. 
+    \vspace{4cm}
+    \item Write a single phonological rule that can account for your analysis to generate the correct distribution of surface allophones.
+    \vspace{2cm}
+    \item Show a derivation for `sour', `he laughed', `to be able', and `to lay eggs'
+\end{itemize}
 
 %------------------------------------
 %\section{} \label{}
