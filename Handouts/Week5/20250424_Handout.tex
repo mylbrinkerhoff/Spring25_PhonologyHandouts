@@ -37,7 +37,7 @@
 \usepackage{hanging}
 \usepackage{fancyhdr} %Allows for the 
 \pagestyle{fancy}
-\fancyhead[L]{\textit{QP final draft}} 
+\fancyhead[L]{\textit{Phonology I Handout}} 
 \fancyhead[R]{\textit{\today}} 
 \fancyfoot[L,R]{} 
 \fancyfoot[C]{\thepage} 
@@ -55,8 +55,11 @@
 \usepackage{subcaption}
 
 %%FONTS
-\setmainfont{Libertinus Serif}
-\setsansfont{Libertinus Sans}
+% \setmainfont{Libertinus Serif}
+\setmainfont{Linux Libertine O}
+% \setsansfont{Libertinus Sans}
+\setsansfont{Linux Biolinum O}
+% \setmonofont{Libertinus Mono}
 \setmonofont[Scale=MatchLowercase]{Libertinus Mono}
 
 %%PACKAGES FOR LINGUISTICS
@@ -126,10 +129,7 @@
 %	\onehalfspacing
 
 \begin{center}
-     {\Large \textbf{TITLE}}
-     \vspace{6pt}
-
-     Mykel Loren Brinkerhoff
+     {\Large \textbf{Week 5: Natural Classes and Rules}}
 \end{center}
 %\maketitle
 %\maketitleinst
@@ -141,7 +141,7 @@
 \section{Santiago Laxopa Zapotec} \label{}
 %------------------------------------
 
-Santiago Laxopa Zapotec (SLZ; \textit{Dille'xhunh Laxup} [diʒeʔʐun lːaʂːupʰ]) is a variety of Zapotec spoken by about 1000 people in the town of Santiago Laxopa, Oaxaca, Mexico. It is a member of the Zapotecan language family, which is part of the larger Oto-Manguean language family. 
+Santiago Laxopa Zapotec (SLZ; \textit{Dille'xhunh Laxup} [diʒe͡ʔʐun lːaʂːupʰ]) is a variety of Zapotec spoken by about 1000 people in the town of Santiago Laxopa, Oaxaca, Mexico. It is a member of the Zapotecan language family, which is part of the larger Oto-Manguean language family. 
 
 \begin{table}[!h]
 	\centering
@@ -165,7 +165,7 @@ Santiago Laxopa Zapotec (SLZ; \textit{Dille'xhunh Laxup} [diʒeʔʐun lːaʂːup
 	}
 \end{table}
 
-SLZ has a four phonemic vowels, which are shown in \ref{tab:SLZ_vowel_chart}. The vowel system is characterized by a three-way height distinction and a two-way backness distinction. The high back vowel /u/ is realized as [o] in some contexts, but this is not phonemic and is restricted to certain lexical items. Additionally, older speakers tend to realize /u/ as [o] in all contexts, while younger speakers have a more stable realization of /u/ as [u] save for a few lexical items like \textit{me'edo'} [mḛdoʔ] `baby'.
+SLZ has a four phonemic vowels, which are shown in Table~\ref{tab:SLZ_vowel_chart}.\footnote{The high back vowel /u/ is realized as [o] in some contexts, but this is not phonemic and is restricted to certain lexical items. Additionally, older speakers tend to realize /u/ as [o] in all contexts, while younger speakers have a more stable realization of /u/ as [u] save for a few lexical items like \textit{me'edo'} [mːḛdo͡ʔ] `baby'.} 
 
 \begin{table}[h!]
     \centering
@@ -182,21 +182,55 @@ SLZ has a four phonemic vowels, which are shown in \ref{tab:SLZ_vowel_chart}. Th
     \end{tabular}
 \end{table}
 
-In addition to these vowel qualities, Santiago Laxopa Zapotec has four phonations that are phonemic. These are: breathy voice (e.g., /a̤/ ), creaky voice (e.g., /a̰/), modal voice (e.g., /a/), and checked voice, which is a complex segment consisting of a vowel and glottal stop (e.g., /aʔ/). 
-%------------------------------------
-%\section{} \label{}
-%------------------------------------
+In addition to these vowel qualities, Santiago Laxopa Zapotec has three phonemic phonations: breathy voice (e.g., /a̤/ ), creaky voice (e.g., /a̰/), modal voice (e.g., /a/).\footnote{There is a fourth phonation type called checked voice, which is a complex segment consisting of a vowel and glottal stop (e.g., /a͡ʔ/), but we will not worry about them in this handout.} 
 
+SLZ also has a number of phonemic tones that are realized as differences in pitch. There are a total of five tones: High (˦), Mid (˧), Low (˨), Rising (˧˦), Falling (˦˨), which won't be discussed in this handout. 
 
 %------------------------------------
-%\section{} \label{}
+\section{Natural Classes} 
 %------------------------------------
 
+Some natural classes (for this language) are listed below. For each natural class, Provide the features that define the class. Remember to use the least number of features possible.
+
+\begin{enumerate}
+	\item {}[pː, tː, kː, kʷː, sː, ʃː, ʂː, çː, t͡sː, t͡ʃː]
+	\item {}[mː, nː, lː, rː, wː]
+	\item {}[b, d, g, gʷ, z, ʒ, ʐ, d͡z, ʁ, n, l]
+	\item {}[i, e, i̤, e̤, ḭ, ḛ, i͡ʔ, e͡ʔ]
+\end{enumerate}
 
 %------------------------------------
-%\section{} \label{}
+\section{Listing Segments} 
 %------------------------------------
 
+List all the segments that belong to the following natural classes.
+
+\begin{enumerate}
+	\item {}[+labial]
+	\item {}[+long, +sonorant]
+	\item {}[+continuant, -long]
+	\item {}[+high, -constructed glottis, -spread glottis]
+	\item {}[-high, -low, -constructed glottis, +spread glottis]
+	\item {}[+constricted glottis]
+	\item {}[+spread glottis]
+\end{enumerate}
+
+%------------------------------------
+\section{Rules} 
+%------------------------------------
+
+Write rules to capture the following generalizations. Use as few features as possible to pick out all and only the relevant inputs, outputs, and environments.
+
+\begin{enumerate}
+
+	\item Sonorants that follow a breathy vowel devoice 
+	\vspace{1cm}
+	\item Long obstruents become short and aspirated word finally
+	\vspace{1cm}
+	\item Short stops become fricatives word finally
+	\vspace{1cm}
+	\item Long sonorants become voiceless when they are word initial and followed by a consonant
+\end{enumerate}
 
 %------------------------------------
 %BIBLIOGRAPHY
